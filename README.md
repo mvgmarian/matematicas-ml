@@ -40,64 +40,62 @@ Para adaptarse a su modo preferido de aprendizaje, el contenido está ahora disp
 * **Open Data Science Conference**: The entire series was taught live online from Dec 2020 to Jun 2021. On-demand recordings of all these trainings are now available in the [Ai+ Platform](https://aiplus.odsc.com/pages/mlbootcamp).
 * **Book**: A book deal with Pearson is in place; eventually I'll have bandwidth to work on the manuscript and pre-release chapter drafts will be available via oreilly.com.
 
-*(Note that while YouTube contains 100% of the taught content, the paid options — e.g., Udemy, O'Reilly, and ODSC — contain comprehensive solution walk-throughs for exercises that are not available on YouTube. Some of the paid options also include exclusive, platform-specific features such as interactive testing, "cheat sheets" and the awarding of a certificate for successful course completion.)*
+*(Tenga en cuenta que, si bien YouTube contiene el 100% del contenido enseñado, las opciones de pago -por ejemplo, Udemy, O'Reilly y ODSC- contienen soluciones completas para los ejercicios que no están disponibles en YouTube. Algunas de las opciones de pago también incluyen funciones exclusivas y específicas de la plataforma, como pruebas interactivas, «hojas de trucos» y la concesión de un certificado por haber completado con éxito el curso)*.
 
 ### Push Notifications
 
-To stay informed of future live training sessions, new video releases, and book chapter releases, consider signing up for Jon Krohn's [email newsletter via his homepage](https://www.jonkrohn.com/).
+Para mantenerse informado sobre futuras sesiones de formación en directo, nuevos vídeos y capítulos de libros, suscríbase al [boletín electrónico a través de su página web] de Jon Krohn (https://www.jonkrohn.com/).
 
 ### Notebooks
 
-All code is provided within Jupyter notebooks [in this directory](https://github.com/jonkrohn/DLTFpT/blob/master/notebooks/). These notebooks are intended for use within the (free) [Colab cloud environment](https://colab.research.google.com) and that is the only environment currently actively supported. 
+Todo el código se proporciona en cuadernos Jupyter [en este directorio](https://github.com/joanby/DLTFpT/blob/master/notebooks/). Estos cuadernos están pensados para su uso en el entorno en la nube (gratuito) [Colab](https://colab.research.google.com) y ese es el único entorno actualmente soportado de forma activa. 
 
-That said, if you are familiar with running Jupyter notebooks locally, you're welcome to do so (note that the library versions in this repo's [Dockerfile](https://github.com/jonkrohn/ML-foundations/blob/master/Dockerfile) are not necessarily current, but may provide a reasonable starting point for running Jupyter within a Docker container).
-
+Dicho esto, si usted está familiarizado con la ejecución de cuadernos Jupyter localmente, es bienvenido a hacerlo (tenga en cuenta que las versiones de la biblioteca en este repositorio [Dockerfile](https://github.com/jonkrohn/ML-foundations/blob/master/Dockerfile) no son necesariamente actuales, pero pueden proporcionar un punto de partida razonable para ejecutar Jupyter dentro de un contenedor Docker).
 
 ### The Machine Learning House
 
 <p align="center">
-  <img src="https://github.com/jonkrohn/ML-foundations/blob/master/img/ML-house.png" width="500" align="center">
+  <img src="https://github.com/joanby/matematicas-ml/blob/master/img/ML-house.png" width="500" align="center">
 </p>
 
-To be an outstanding data scientist or ML engineer, it doesn't suffice to only know how to use ML algorithms via the abstract interfaces that the most popular libraries (e.g., scikit-learn, Keras) provide. To train innovative models or deploy them to run performantly in production, an in-depth appreciation of machine learning theory (pictured as the central, purple floor of the "Machine Learning House") may be helpful or essential. And, to cultivate such in-depth appreciation of ML, one must possess a working understanding of the foundational subjects.
+Para ser un científico de datos o un ingeniero de ML sobresaliente, no basta con saber utilizar algoritmos de ML a través de las interfaces abstractas que ofrecen las bibliotecas más populares (por ejemplo, scikit-learn, Keras). Para entrenar modelos innovadores o desplegarlos para que funcionen de forma eficiente en producción, puede ser útil o esencial una apreciación en profundidad de la teoría del aprendizaje automático (representada como el suelo central de color púrpura de la «Casa del Aprendizaje Automático»). Y, para cultivar esa apreciación profunda del ML, uno debe poseer una comprensión práctica de los temas fundamentales.
 
-When the foundations of the "Machine Learning House" are firm, it also makes it much easier to make the jump from general ML principles (purple floor) to specialized ML domains (the top floor, shown in gray) such as deep learning, natural language processing, machine vision, and reinforcement learning. This is because, the more specialized the application, the more likely its details for implementation are available only in academic papers or graduate-level textbooks, either of which typically assume an understanding of the foundational subjects.
+Cuando los cimientos de la «Casa del Aprendizaje Automático» son firmes, también resulta mucho más fácil dar el salto de los principios generales del aprendizaje automático (piso morado) a los dominios especializados del aprendizaje automático (piso superior, mostrado en gris), como el aprendizaje profundo, el procesamiento del lenguaje natural, la visión artificial y el aprendizaje por refuerzo. Esto se debe a que, cuanto más especializada es la aplicación, más probable es que los detalles de su implementación sólo estén disponibles en artículos académicos o en libros de texto de posgrado, en los que normalmente se presupone un conocimiento de las materias básicas.
 
-The content in this series may be particularly relevant for you if: 
+El contenido de esta serie puede ser especialmente relevante para usted si: 
 
-* **You use high-level software libraries** to train or deploy machine learning algorithms, and would now like to understand the fundamentals underlying the abstractions, enabling you to expand your capabilities
-* You’re a **data scientist** who would like to reinforce your understanding of the subjects at the core of your professional discipline
-* You’re a **software developer** who would like to develop a firm foundation for the deployment of machine learning algorithms into production systems
-* You’re a **data analyst** or **A.I. enthusiast** who would like to become a data scientist or data/ML engineer, and so you’re keen to deeply understand the field you’re entering from the ground up (very wise of you!) 
-* You're simply keen to understand the essentials of linear algebra, calculus, probability, stats, algorithms and/or data structures
+* **Utilizas librerías de software de alto nivel** para entrenar o desplegar algoritmos de aprendizaje automático, y ahora te gustaría comprender los fundamentos subyacentes a las abstracciones, lo que te permitiría ampliar tus capacidades
+* Eres un **científico de datos** que desea reforzar su comprensión de los temas en el núcleo de su disciplina profesional
+* Eres un **desarrollador de software** al que le gustaría desarrollar una base firme para el despliegue de algoritmos de aprendizaje automático en sistemas de producción.
+* Eres un **analista de datos** o un **entusiasta de la Inteligencia Artificial** al que le gustaría convertirse en un científico de datos o un ingeniero de datos/ML, por lo que estás deseando comprender en profundidad el campo en el que estás entrando desde el principio (¡muy sabio por tu parte!). 
+* Simplemente quieres entender lo esencial del álgebra lineal, cálculo, probabilidad, estadística, algoritmos y/o estructuras de datos.
 
-The foundational subjects have largely been unchanged in recent decades and are likely to remain so for the coming decades, yet they're critical across all machine learning and data science approaches. Thus, the foundations provide a solid, career-long bedrock. 
-
-
-### Pedagogical Approach
-
-The purpose of this series it to provide you with a practical, functional understanding of the content covered. Context will be given for each topic, highlighting its relevance to machine learning. 
-
-As with other materials created by Jon Krohn (such as the book *[Deep Learning Illustrated](https://www.deeplearningillustrated.com/)* and his 18-hour video series *[Deep Learning with TensorFlow, Keras, and PyTorch](https://github.com/jonkrohn/DLTFpT/))*, the content in the series is brought to life through the combination of:
-
-* Vivid full-color illustrations 
-* Paper-and-pencil comprehension exercises with fully-worked solutions
-* Hundreds of straightforward examples of Python code within hands-on Jupyter notebooks (with a particular focus on the PyTorch and TensorFlow libraries)
-* Practical ML applications
-* Resources for digging even deeper into topics that pique your curiosity
+Las asignaturas básicas no han cambiado mucho en las últimas décadas y es probable que sigan así en las próximas, pero son fundamentales en todos los enfoques del aprendizaje automático y la ciencia de datos. Por lo tanto, los fundamentos proporcionan una base sólida para toda la carrera. 
 
 
-### Prerequisites
+### Enfoque pedagógico
 
-**Programming**: All code demos will be in Python so experience with it or another object-oriented programming language would be helpful for following along with the code examples. A good (and free!) resource for getting started with Python is Al Sweigart's [Automate the Boring Stuff](https://automatetheboringstuff.com/).
+El objetivo de esta serie es proporcionarle una comprensión práctica y funcional del contenido tratado. Se dará contexto a cada tema, destacando su relevancia para el aprendizaje automático. 
 
-**Mathematics**: Familiarity with secondary school-level mathematics will make the class easier to follow along with. If you are comfortable dealing with quantitative information – such as understanding charts and rearranging simple equations — then you should be well-prepared to follow along with all of the mathematics. If you discover you have some math gaps as you work through this *ML Foundations* curriculum, I recommend the free, comprehensive [Khan Academy](https://www.khanacademy.org) to fill those gaps in.
+Al igual que con otros materiales creados por Jon Krohn (como el libro *[Deep Learning Illustrated](https://www.deeplearningillustrated.com/)* y su serie de vídeos de 18 horas *[Deep Learning with TensorFlow, Keras, and PyTorch](https://github.com/joanby/DLTFpT/))*, el contenido de la serie cobra vida gracias a la combinación de:
+
+* Ilustraciones vívidas a todo color 
+* Ejercicios de comprensión con lápiz y papel y soluciones prácticas
+* Cientos de ejemplos sencillos de código Python en cuadernos Jupyter prácticos (con especial atención a las bibliotecas PyTorch y TensorFlow).
+* Aplicaciones prácticas de ML
+* Recursos para profundizar aún más en los temas que despiertan tu curiosidad
+
+### Prerequisitos
+
+**Programación**: Todas las demostraciones de código se harán en Python, por lo que será útil tener experiencia con este u otro lenguaje de programación orientado a objetos para seguir los ejemplos de código. Un buen recurso (¡y gratuito!) para iniciarse en Python es [Automate the Boring Stuff](https://automatetheboringstuff.com/) de Al Sweigart.
+
+**Matemáticas**: Estar familiarizado con las matemáticas de secundaria facilitará el seguimiento de la clase. Si te sientes cómodo con la información cuantitativa, como la comprensión de gráficos y la reorganización de ecuaciones sencillas, entonces estarás bien preparado para seguir todas las matemáticas. Si descubres que tienes algunas lagunas matemáticas mientras trabajas en este plan de estudios *Fundamentos de ML*, te recomiendo la completa ruta de aprendizaje de [Frogames Formación](https://cursos.frogamesformacion.com/bundles/aprende-matematicas-desde-cero) para llenar esas lagunas.
 
 
 ### Oboe
 
-Finally, here's an illustration of Oboe, the *Machine Learning Foundations* mascot, created by the wonderful artist [Aglaé Bassens](https://www.aglaebassens.com): 
+Por último, he aquí una ilustración de Oboe, la mascota de *Machine Learning Foundations*, creada por el maravilloso artista [Aglaé Bassens](https://www.aglaebassens.com): 
 
 <p align="center">
-  <img src="https://github.com/jonkrohn/ML-foundations/blob/master/img/Oboe.jpg" width="400" align="center">
+  <img src="https://github.com/joanby/matematicas-ml/blob/master/img/Oboe.jpg" width="400" align="center">
 </p>
