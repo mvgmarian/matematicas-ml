@@ -1,29 +1,29 @@
-# Machine Learning Foundations
+# Fudndamentos Matemáticos del Machine Learning
 
-This repo is home to the code that accompanies Jon Krohn's *Machine Learning Foundations* curriculum, which provides a comprehensive overview of all of the subjects — across mathematics, statistics, and computer science — that underlie contemporary machine learning approaches, including deep learning and other artificial intelligence techniques.
+Este repositorio contiene el código que acompaña al plan de estudios *Fundamentos Matemáticos deMachine Learning Foundations* de Juan Gabriel Gomila, que proporciona una visión completa de todas las materias (matemáticas, estadística e informática) que subyacen a los enfoques contemporáneos del aprendizaje automático, incluido el aprendizaje profundo y otras técnicas de inteligencia artificial.
 
-There are eight subjects in the curriculum, organized into four subject areas. See the "Machine Learning House" section below for detail on why these are the essential foundational subject areas: 
+Hay ocho temas completos en el plan de estudios, organizadas en cuatro áreas temáticas. Consulta la sección «Machine Learning House» a continuación para obtener información detallada sobre por qué estas son las áreas temáticas fundamentales esenciales: 
 
-* **Linear Algebra**
-   * 1: [Intro to Linear Algebra](https://github.com/jonkrohn/ML-foundations/blob/master/notebooks/1-intro-to-linear-algebra.ipynb)
-   * 2: [Linear Algebra II: Matrix Operations](https://github.com/jonkrohn/ML-foundations/blob/master/notebooks/2-linear-algebra-ii.ipynb)
-* **Calculus**
-   * 3: [Calculus I: Limits & Derivatives](https://github.com/jonkrohn/ML-foundations/blob/master/notebooks/3-calculus-i.ipynb)
-   * 4: [Calculus II: Partial Derivatives & Integrals](https://github.com/jonkrohn/ML-foundations/blob/master/notebooks/4-calculus-ii.ipynb)
-* **Probability and Statistics**
-   * 5: [Probability & Information Theory](https://github.com/jonkrohn/ML-foundations/blob/master/notebooks/5-probability.ipynb)
-   * 6: [Intro to Statistics](https://github.com/jonkrohn/ML-foundations/blob/master/notebooks/6-statistics.ipynb)
-* **Computer Science**
-   * 7: [Algorithms & Data Structures](https://github.com/jonkrohn/ML-foundations/blob/master/notebooks/7-algos-and-data-structures.ipynb)
-   * 8: [Optimization](https://github.com/jonkrohn/ML-foundations/blob/master/notebooks/8-optimization.ipynb)
+* **Álgebra Lineal**
+   * 1: [Introducción al Álgebra Lineal](https://github.com/joanby/matematicas-ml/blob/master/notebooks/1-intro-to-linear-algebra.ipynb)
+   * 2: [Álgebra Lineal II: Operaciones Matriciales](https://github.com/joanby/matematicas-ml/blob/master/notebooks/2-linear-algebra-ii.ipynb)
+* **Cálculo**
+   * 3: [Cálculo I: Límites & Derivadas](https://github.com/joanby/matematicas-ml/blob/master/notebooks/3-calculus-i.ipynb)
+   * 4: [Cálculo II: Derivadas Parciales e Integrales](https://github.com/joanby/matematicas-ml/blob/master/notebooks/4-calculus-ii.ipynb)
+* **Probabilidad y Estadística**
+   * 5: [Probabilidad & Teoría de la Información](https://github.com/joanby/matematicas-ml/blob/master/notebooks/5-probability.ipynb)
+   * 6: [Introducción a la Estadística](https://github.com/joanby/matematicas-ml/blob/master/notebooks/6-statistics.ipynb)
+* **Ciencias de la Computación**
+   * 7: [Algoritmos y Estructuras de Datos](https://github.com/joanby/matematicas-ml/blob/master/notebooks/7-algos-and-data-structures.ipynb)
+   * 8: [Optimización](https://github.com/joanby/matematicas-ml/blob/master/notebooks/8-optimization.ipynb)
    
-Later subjects build upon content from earlier subjects, so the recommended approach is to progress through the eight subjects in the order provided. That said, you're welcome to pick and choose individual subjects based on your interest or existing familiarity with the material. In particular, each of the four subject areas are fairly independent so could be approached separately. 
+Los temas posteriores se basan en los anteriores, por lo que se recomienda avanzar por los ocho temas en el orden indicado. No obstante, puede elegir los temas que más le interesen o con los que esté más familiarizado. En particular, cada una de las cuatro áreas temáticas es bastante independiente, por lo que puede abordarse por separado. 
 
-### Where and When
+### Donde y Cuando and When
 
-The eight *ML Foundations* subjects were initially offered by [Jon Krohn](jonkrohn.com) as live online trainings in the [O'Reilly learning platform](https://learning.oreilly.com/home/) from May-Sep 2020 (and were offered a second time from Jul-Dec 2021; see [here](https://www.jonkrohn.com/talks) for individual lecture dates). 
+Los ocho temas de *Fundamentos de ML* fueron ofrecidos inicialmente por [Jon Krohn](jonkrohn.com) como formaciones en línea en directo en la [plataforma de aprendizaje de O'Reilly](https://learning.oreilly.com/home/) de mayo a septiembre de 2020 (y se ofrecieron una segunda vez de julio a diciembre de 2021; consulta [aquí](https://www.jonkrohn.com/talks) para ver las fechas de las clases individuales). 
 
-To suit your preferred mode of learning, the content is now available via several channels: 
+Para adaptarse a su modo preferido de aprendizaje, el contenido está ahora disponible a través de varios canales: 
 
 * **YouTube**
     * Linear Algebra [complete playlist here](https://www.youtube.com/playlist?list=PLRDl2inPrWQW1QSWhBU0ki-jq_uElkh2a) and [detailed blog post here](https://www.jonkrohn.com/posts/2021/5/9/linear-algebra-for-machine-learning-complete-math-course-on-youtube)
